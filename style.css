@@ -27,14 +27,11 @@
 
 * { box-sizing: border-box; }
 
-html, body {
-    overflow-x: hidden;
-    max-width: 100%;
-}
-
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 84px;
+   width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -48,6 +45,10 @@ body {
   line-height: 1.62;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+   width: 100%;
+  min-height: 100vh;
+  overflow-x: clip;
+  overflow-y: auto;
 }
 
 body::before {
