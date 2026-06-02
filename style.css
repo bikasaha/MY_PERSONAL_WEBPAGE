@@ -1171,7 +1171,7 @@ footer {
     top: 72px;
     left: 18px;
     right: 18px;
-    z-index: 99;
+    z-index: 1000;
     padding: 10px;
     border: 1px solid var(--line);
     border-radius: 20px;
@@ -1191,6 +1191,9 @@ footer {
     background: var(--accent-soft);
     color: var(--accent);
   }
+   .mob-menu.open {
+     display: block;
+   }
 
   .hero-inner {
     grid-template-columns: 1fr;
